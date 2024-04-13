@@ -1,6 +1,6 @@
 function Store(props) {
     return(
-        <a href="/StoreDetail" className="relative cursor-pointer mt-10">
+        <a href="/StoreInfo" className="relative cursor-pointer mt-10">
             <img src={props.storeImg} alt="" className="rounded-lg" id="store_img" />
             <p className="absolute top-3 py-0.5 px-2 bg-[#00B14F] text-white text-xs font-semibold rounded">Promo</p>
             <p className="font-bold text-xl my-3 line-clamp-2">{props.storeName}</p>
