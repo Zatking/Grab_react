@@ -1,9 +1,9 @@
-function CateTypeOfFood(props) {
+function CateTypeOfFood(propsItem) {
     return(
         <div>
-            <img src={props.cateImg}
+            <img src={propsItem.cateImg}
                 alt="" className="rounded-md" />
-            <p className="font-bold my-4">{props.cateName}</p>
+            <p className="font-bold my-4">{propsItem.cateName}</p>
         </div>
     )
 }
